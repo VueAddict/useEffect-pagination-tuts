@@ -8,6 +8,7 @@ const Post = ({title, body}) => {
         <Card.Title>{title}</Card.Title>
         <Card.Text>
           {body}
+          
         </Card.Text>
         <Button variant="primary">Read More</Button>
       </Card.Body>
